@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('/Assests/container-truck-ship-port-ai-generated-image\ \(1\).jpg') no-repeat;
+    background-size: cover;
+}
+
+.heading{
+    position: absolute;
+    right:85%;
+    bottom: 88%;
+    color: #fff;
+}
+
+.wrap {
+    position: relative;
+    width: 420px;
+    height: 450px;
+    background:transparent;
+    border: 2px solid rgba(255, 255, 255, .1);
+    backdrop-filter: blur(30px);
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    align-items: center;
+    transition: height .2s;
+    margin-top: 3%;
+    overflow: hidden;
+}
+
+.wrap .form-box.register {
+    position: absolute;
+    transform: translateX(400px);
+}
+
+.wrap .form-box.login {
+    transition: transform .18s ease;
+    transform: translateX(0);
+}
+
+.wrap .form-box {
+    width: 100%;
+    padding: 30px;
+}
+
+.wrap.active .form-box.login {
+    transition: none;
+    transform: translateX(-400px);
+}
+
+.wrap.active .form-box.register {
+    transition: transform .18s ease;
+    transform: translateX(0);
+}
+
+form h1 {
+    font-size: 45px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+form .input-box {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin: 30px 0;
+    color: #fff;
+    padding-top: 8px;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(45, 42, 42);
+    border-radius: 40px;
+    color: #fff;
+    padding: 20px;
+}
+
+.input-box input::placeholder {
+    color: #fff;
+    padding: 8px;
+    font-size: 15px;
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-30%);
+    font-size: 16px;
+}
+
+form .rember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -15px 0 15px;
+    padding-top: 28px;
+}
+
+.rember-forgot label input {
+    caret-color: #fff;
+    margin-right: 4px;
+}
+
+.rember-forgot a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+
+.rember-forgot a:hover {
+    text-decoration: underline;    
+}
+
+form button {
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+form .register-link {
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 15px;
+    color: #fff;
+}
+
+.register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+
+
+.form-box.register {
+    color: black; 
+}
+
+.form-box.register input,
+.form-box.register label,
+.form-box.register button {
+    color: black; 
+}
+
+.container-fluid {
+    padding: 20px;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url('./Assests/busy-shipping-port-with-containers-trade-action.jpg') center/cover no-repeat;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.heading {
+    color: #fff;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 30px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.active {
+    color: #058283;
+}
+
+nav ul li:hover {
+    color: #058283;
+}
+
+.btn {
+    width: 120px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    background: #058283;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #058283;
+}
+
+
+.content {
+    max-width: 800px;
+    padding: 20px;
+    color: #fff;
+    margin-top: 5%;
+}
+
+.content h5 {
+    color: #058283;
+    font-size: 30px;
+}
+
+.content h6 {
+    font-size: 75px;
+    margin-top: 25px;
+    line-height: 75px;
+}
+
+.content p {
+    font-size: 18px;
+    margin: 15px 0;
+    font-weight: 530;
+}
+
+
